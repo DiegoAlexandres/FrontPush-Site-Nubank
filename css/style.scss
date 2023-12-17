@@ -23,7 +23,7 @@ body {
     background-color: $white-dark;
 
     @include responsive(s){
-        background-color: $white-normal
+        background-color: $white-dark;
     }
 
     height: 200vh;
