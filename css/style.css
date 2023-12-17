@@ -929,8 +929,8 @@ header {
 }
 @media screen and (max-width: 960px) {
   .icon-mobile-hero {
-    top: 150px;
-    left: -220px;
+    top: 160px;
+    left: -155px;
   }
 }
 

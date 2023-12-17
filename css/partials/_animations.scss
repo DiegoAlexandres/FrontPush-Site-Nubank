@@ -85,8 +85,8 @@ $height-car: 0.64 * $width-car;
     z-index: 2;
 
     @include responsive(s){
-        top: 150px;
-        left: -220px;
+        top: 160px;
+        left: -155px;
     }
 
     animation: icons-hero 7s 2.5s ease infinite alternate;
