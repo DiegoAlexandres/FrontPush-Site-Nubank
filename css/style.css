@@ -119,6 +119,24 @@
   }
 }
 
+.list-item {
+  list-style: none;
+  position: relative;
+  border: 1px solid purple;
+  padding: 8px 8px 8px 72px;
+  margin-bottom: 48px;
+}
+.list-item:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 64px;
+  height: 64px;
+  background-color: purple;
+}
+
 h1 {
   color: #161617;
   font-family: "Sora", sans-serif;
