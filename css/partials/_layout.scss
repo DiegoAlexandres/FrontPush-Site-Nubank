@@ -188,5 +188,16 @@ $container-s: 540px;
 // SECTION BEST 
 
 .best{
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+    border-radius: 50px;
+    background-color: $white-normal;
+
+    @include responsive(s){
+        flex-direction: column;
+    }
+
 }

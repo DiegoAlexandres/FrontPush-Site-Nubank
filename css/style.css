@@ -135,6 +135,20 @@
   height: 64px;
 }
 
+.best {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border-radius: 50px;
+  background-color: #F7F2FA;
+}
+@media screen and (max-width: 960px) {
+  .best {
+    flex-direction: column;
+  }
+}
+
 h1 {
   color: #161617;
   font-family: "Sora", sans-serif;
