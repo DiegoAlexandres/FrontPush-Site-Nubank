@@ -148,6 +148,33 @@
     flex-direction: column;
   }
 }
+.best::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  width: 124px;
+  height: 32px;
+  background-image: url(../../svg/entail.svg);
+  background-repeat: no-repeat;
+}
+
+.best-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 16px;
+  margin: 8px 8px;
+}
+@media screen and (max-width: 960px) {
+  .best-item {
+    justify-content: center;
+    align-items: center;
+  }
+}
 
 h1 {
   color: #161617;
