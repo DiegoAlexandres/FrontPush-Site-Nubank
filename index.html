@@ -234,40 +234,41 @@
         <h5>Depoimentos</h5>
         <h2>Todos amam o roxinho</h2>
     </section>
-    <section class="container-swiper">
+    <section class="container-swiper hidden">
         <div class="swiper-container">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                    <div class="photo"></div>
-                    <h4></h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, magni beatae maxime eius est nihil in praesentium facere explicabo sapiente temporibus dolore et ullam commodi officiis ut laboriosam perspiciatis. Sapiente?</p>
+                    <div class="photo-profile photo-1"></div>
+                    <h4 class="my-1">Diego Alexandre</h4>
+                    <p class="my-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, magni beatae maxime eius est nihil in praesentium facere explicabo sapiente temporibus dolore et ullam commodi officiis ut laboriosam perspiciatis. Sapiente?</p>
                 </div>
                 <div class="swiper-slide">
-                    <div class="photo"></div>
-                    <h4></h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, magni beatae maxime eius est nihil in praesentium facere explicabo sapiente temporibus dolore et ullam commodi officiis ut laboriosam perspiciatis. Sapiente?</p>
+                    <div class="photo-profile photo-2"></div>
+                    <h4 class="my-1">Diego Alexandre</h4>
+                    <p class="my-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, magni beatae maxime eius est nihil in praesentium facere explicabo sapiente temporibus dolore et ullam commodi officiis ut laboriosam perspiciatis. Sapiente?</p>
                 </div>
                 <div class="swiper-slide">
-                    <div class="photo"></div>
-                    <h4></h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, magni beatae maxime eius est nihil in praesentium facere explicabo sapiente temporibus dolore et ullam commodi officiis ut laboriosam perspiciatis. Sapiente?</p>
+                    <div class="photo-profile photo-3"></div>
+                    <h4 class="my-1">Diego Alexandre</h4>
+                    <p class="my-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, magni beatae maxime eius est nihil in praesentium facere explicabo sapiente temporibus dolore et ullam commodi officiis ut laboriosam perspiciatis. Sapiente?</p>
                 </div>
                 <div class="swiper-slide">
-                    <div class="photo"></div>
-                    <h4></h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, magni beatae maxime eius est nihil in praesentium facere explicabo sapiente temporibus dolore et ullam commodi officiis ut laboriosam perspiciatis. Sapiente?</p>
+                    <div class="photo-profile photo-4"></div>
+                    <h4 class="my-1">Diego Alexandre</h4>
+                    <p class="my-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, magni beatae maxime eius est nihil in praesentium facere explicabo sapiente temporibus dolore et ullam commodi officiis ut laboriosam perspiciatis. Sapiente?</p>
                 </div>
                 <div class="swiper-slide">
-                    <div class="photo"></div>
-                    <h4></h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, magni beatae maxime eius est nihil in praesentium facere explicabo sapiente temporibus dolore et ullam commodi officiis ut laboriosam perspiciatis. Sapiente?</p>
+                    <div class="photo-profile photo-5"></div>
+                    <h4 class="my-1">Diego Alexandre</h4>
+                    <p class="my-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, magni beatae maxime eius est nihil in praesentium facere explicabo sapiente temporibus dolore et ullam commodi officiis ut laboriosam perspiciatis. Sapiente?</p>
                 </div>
             </div>
-
-            <div class="button-next"></div>
-            <div class="button-prev"></div>
             
         </div>
+
+        <div class="button-next"></div>
+        <div class="button-prev"></div>
+
     </section>
 
     <!--========= JAVASCRIPT =========-->          
@@ -275,18 +276,18 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
     <script>
-        var swiper = new Switch('.swaper-container', {
+        var swiper = new Swiper('.swiper-container', {
             slidesPerView: 'auto',
-            spaceBeteween: 40,
+            spaceBetween: 40,
             grabCursor: true,
             pagination: {
                 el: '.swiper-pagination',
                 clickable: true,
                 type: 'progressbar',
             },
-            navigator: {
-                nexEl: '.button-next',
-                prevEl: '.button-prev'
+            navigation: {
+                nextEl: '.button-next',
+                prevEl: '.button-prev',
             },
         });
     </script>
